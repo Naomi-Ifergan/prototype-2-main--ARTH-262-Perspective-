@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: cubes 3
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 2ae5d1afde80dee4695630effd27233a, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 2100000, guid: 711d7767125625647b1aa0eb5de363ec, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 13400000, guid: c475eb21c5e8b0e419aeff77c3dbe5a0, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: a9018ae4cd9b842479c15ac27add6687, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: fcf8326186bcea745804f7fb945a3abd, type: 2}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  addToDefaults: 0
