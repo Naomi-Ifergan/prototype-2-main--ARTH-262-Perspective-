@@ -17,12 +17,12 @@ public class PlayerMovement : MonoBehaviour
         //all computers regardless of how many frames per second.  
         rb.AddForce(0, 0, forwardForce * Time.deltaTime);
        
-        if ( Input.GetKey("left"))
+        if ( Input.GetKey("right"))
         {
             rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0);
         }
 
-        if (Input.GetKey("right"))
+        if (Input.GetKey("left"))
         {
             rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0);
         }
